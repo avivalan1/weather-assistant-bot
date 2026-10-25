@@ -50,6 +50,7 @@ export const THRESHOLDS = {
 
 /** True if the code holds now or for any remaining hour today. */
 const nowOrLater = (w: SuggestionInput, test: (code: number) => boolean) =>
+  // eg. The rule (bring an umbrella) should fire if it rains now OR later today
   test(w.weatherCode) || w.upcomingWeatherCodes.some(test);
 
 /** Ordered by priority: safety first, then comfort. The first match wins. */

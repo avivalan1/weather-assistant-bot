@@ -24,12 +24,18 @@ export interface Config {
  */
 export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
   // Treat empty strings (e.g. `LOG_LEVEL=` copied from .env.example) as unset.
+
+  // removes all keys with empty string values ('')
   const cleaned = Object.fromEntries(Object.entries(env).filter(([, v]) => v !== ''));
+
+  // the actual validation
   const result = ConfigSchema.safeParse(cleaned);
+  
   if (!result.success) {
     const issues = result.error.issues.map((i) => `  - ${i.path.join('.')}: ${i.message}`);
     throw new Error(`Invalid configuration:\n${issues.join('\n')}`);
   }
+  
   const c = result.data;
   return {
     botToken: c.BOT_TOKEN,

@@ -252,10 +252,21 @@ describe('/air', () => {
     expect(t.lastReply()).not.toContain('Luna Park');
   });
 
-  it('asks for a city when the argument is missing', async () => {
+  it('suggests /air commands, not /weather, for other matches', async () => {
     const t = createTestBot(happyFetch());
+    await t.send('/air Paris');
+    expect(t.lastReply()).toContain('Other matches: Paris, Texas, US · Paris, Tennessee, US');
+    expect(t.lastReply()).toContain('/air Paris, Texas');
+    await t.send('/air Paris, Japan');
+    expect(t.lastReply()).toContain('→ e.g. /air Paris, Île-de-France Region');
+  });
+
+  it('asks for a city when the argument is missing', async () => {
+    const fetch = happyFetch();
+    const t = createTestBot(fetch);
     await t.send('/air');
     expect(t.lastReply()).toBe('Please add a city, for example:\n/air Berlin');
+    expect(fetch).not.toHaveBeenCalled();
   });
 });
 

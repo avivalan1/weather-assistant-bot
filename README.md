@@ -47,8 +47,9 @@ constructors, so tests run the real stack with Open-Meteo and Telegram faked at 
   California. If nothing fits, the reply lists what does exist.
   [Details](docs/DESIGN.md#ambiguous-locations).
 - **Failures never stop the service.** 3 s per HTTP attempt, one retry for transient errors, and
-  an 8 s limit on how long each user waits (per user, even when requests are shared). Every failure becomes a specific reply. A fatal polling error
-  (second instance, revoked token) exits with code 1.
+  an 8 s limit on how long each user waits (per user, even when requests are shared). Every
+  failure becomes a specific reply. A fatal polling error (second instance, revoked token) exits
+  with code 1.
 - **Caching:** successful results only, 5 minutes, separate per data type and location.
   Concurrent identical requests share one call.
 - **Rate limits:** a client-side limiter for Open-Meteo's free tier (600/min, 5k/h, 10k/day).
@@ -63,7 +64,7 @@ constructors, so tests run the real stack with Open-Meteo and Telegram faked at 
 
 ## Tests
 
-161 offline tests (`npm test`, ~2 s). They cover both commands end to end through real grammY,
+162 offline tests (`npm test`, ~2 s). They cover both commands end to end through real grammY,
 missing arguments, invalid input, unknown cities, the suggestion rules, API failures
 (5xx/429/timeouts/malformed data), cache expiry with a fake clock, the time budget, config
 defaults, and the polling lifecycle (exit codes, no token in output) against the real runner.
@@ -77,7 +78,8 @@ How each could be addressed is in [docs/FUTURE.md](docs/FUTURE.md).
 - In-memory cache and rate limiter: reset on restart, not shared across instances.
 - No per-user throttling, so one user can use up the shared quota.
 - Ambiguity is resolved automatically; there's no "Which Paris?" button.
-- Qualifiers filter only the top 10 geocoding results. State codes are US-only.
+- Qualifiers filter only the top 10 geocoding results, although the API can now filter by country
+  before that limit. State codes are US-only.
 - Narrowing stops at state level: two same-named places in one state (e.g. the two villages
   called Amsterdam in Ohio) can't be told apart; the top-ranked one is used.
 - English only. City names with digits are rejected; non-Latin names the geocoder doesn't know
@@ -96,11 +98,5 @@ I built this with **Claude Code**, keeping every design decision with me:
 - **Verified against reality.** Schemas were written from live Open-Meteo responses, and I
   tested with a real Telegram bot. That exposed a token leak in library logging and a flaky
   network, which led to the current retry policy.
-- **Independent reviews.** Three separate review sessions examined the code cold. I reproduced
-  each finding (live data, a local HTTP server, a second bot instance) before fixing it, and gave
-  each fix a regression test that I checked fails when the bug is put back. One review showed
-  that an earlier version of this README overstated that: three fixes had no test. They do now.
-  The checks also caught three of my own tests that passed with or without the fix. The full list
-  is in [docs/DESIGN.md](docs/DESIGN.md#review-log).
 - **Gates:** strict TypeScript and `typescript-eslint` `strictTypeChecked`, with no `any`, type
   casts, non-null assertions or suppressions anywhere.

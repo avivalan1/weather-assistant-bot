@@ -96,7 +96,7 @@ export class HttpClient {
         { cause: err },
       );
     }
-
+    // Gate 3: the HTTP status
     const durationMs = Date.now() - started;
     const body = parseJson(text);
     if (!response.ok) {
@@ -112,7 +112,7 @@ export class HttpClient {
         response.status,
       );
     }
-
+    // Gate 4: the schema
     const parsed = schema.safeParse(body);
     if (!parsed.success) {
       // A complete body that is not JSON or not the expected shape: the API changed or broke.

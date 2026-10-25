@@ -33,6 +33,7 @@ export function lookupHandler(command: LookupCommand, deps: LookupDeps) {
   return async (ctx: LookupContext): Promise<void> => {
     // `ctx.match` is everything after the command, so multi-word cities just work.
     const query = ctx.match.trim();
+    // creates a logger that automatically adds updateId and command to every line it writes, so all log lines for one request can be found together.
     const log = deps.logger.child({ updateId: ctx.update.update_id, command });
 
     if (query === '') {
@@ -41,7 +42,10 @@ export function lookupHandler(command: LookupCommand, deps: LookupDeps) {
       return;
     }
 
+    // Starts the "typing…" indicator and re-sends it every 4s
     const stopTyping = keepTyping(ctx, deps.typingIntervalMs ?? 4000, log);
+
+    // A signal that "fires" after 8 s. It's passed down to the service and, from there, to the cache, so this user never waits longer than 8s.
     const deadline = AbortSignal.timeout(deps.commandTimeoutMs);
     const started = performance.now();
     let text: string;

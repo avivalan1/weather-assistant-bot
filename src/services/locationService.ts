@@ -30,6 +30,7 @@ export interface CityQuery {
  * name "Paris" with qualifiers ["Texas", "US"].
  */
 export function parseCityQuery(input: string): CityQuery {
+  // cleans up the whitespace 
   const text = input.replace(/\s+/g, ' ').trim();
   if (text === '') {
     throw new InvalidInputError('Please provide a city name.');
@@ -43,6 +44,7 @@ export function parseCityQuery(input: string): CityQuery {
     );
   }
 
+  // split cuts at every comma, and trim cleans every piece
   const [name = '', ...qualifiers] = text.split(',').map((part) => part.trim());
   if (name === '' || qualifiers.some((q) => q === '')) {
     throw new InvalidInputError('Use the format "City" or "City, Country", e.g. "Paris, France".');
@@ -70,8 +72,11 @@ export class LocationService {
     return this.cache.getOrLoad(
       query.key,
       async () => {
+        // query.name is city
         const places = await this.geocoding.search(query.name);
+        // keep only the places that fit the qualifiers
         const matches = places.filter((p) => query.qualifiers.every((q) => matchesQualifier(p, q)));
+        // best = the first match
         const [best, ...others] = matches;
         if (!best) {
           // Thrown inside the loader, so a "not found" is never cached.
@@ -99,7 +104,10 @@ function distinctRegions(places: Place[], exclude: Place | undefined, limit: num
   const seen = new Set(exclude ? [regionKey(exclude)] : []);
   const result: Place[] = [];
   for (const place of places) {
+    // Skip any place whose name isn't the same as the answer's. 
     if (exclude && !sameName(place, exclude.name)) continue;
+    // TO-DO: think of a smarter solution
+    // If we already have a place in this region (or it's the answer's own region, which was pre-seeded), skip it.
     if (seen.has(regionKey(place))) continue;
     seen.add(regionKey(place));
     result.push(place);

@@ -1,0 +1,112 @@
+{
+  "results": [
+    {
+      "id": 2759794,
+      "name": "Amsterdam",
+      "latitude": 52.37403,
+      "longitude": 4.88969,
+      "country": "The Netherlands",
+      "country_code": "NL",
+      "admin1": "North Holland",
+      "timezone": "Europe/Amsterdam",
+      "population": 741636
+    },
+    {
+      "id": 5107152,
+      "name": "Amsterdam",
+      "latitude": 42.93869,
+      "longitude": -74.18819,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "New York",
+      "timezone": "America/New_York",
+      "population": 18008
+    },
+    {
+      "id": 5145733,
+      "name": "Amsterdam",
+      "latitude": 40.47368,
+      "longitude": -80.92287,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Ohio",
+      "timezone": "America/New_York",
+      "population": 489
+    },
+    {
+      "id": 4374800,
+      "name": "Amsterdam",
+      "latitude": 38.34974,
+      "longitude": -94.58912,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Missouri",
+      "timezone": "America/Chicago",
+      "population": 235
+    },
+    {
+      "id": 1022857,
+      "name": "eMvelo",
+      "latitude": -26.62455,
+      "longitude": 30.66234,
+      "country": "South Africa",
+      "country_code": "ZA",
+      "admin1": "Mpumalanga",
+      "timezone": "Africa/Johannesburg",
+      "population": 8110
+    },
+    {
+      "id": 4505240,
+      "name": "Amsterdam",
+      "latitude": 39.95757,
+      "longitude": -82.37821,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Ohio",
+      "timezone": "America/New_York",
+      "population": 549
+    },
+    {
+      "id": 5637141,
+      "name": "Amsterdam",
+      "latitude": 45.75798,
+      "longitude": -111.31996,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Montana",
+      "timezone": "America/Denver",
+      "population": 180
+    },
+    {
+      "id": 4262053,
+      "name": "New Amsterdam",
+      "latitude": 38.10229,
+      "longitude": -86.27497,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Indiana",
+      "timezone": "America/Kentucky/Louisville",
+      "population": 27
+    },
+    {
+      "id": 1022856,
+      "name": "Amsterdam",
+      "latitude": -31.62809,
+      "longitude": 25.62113,
+      "country": "South Africa",
+      "country_code": "ZA",
+      "admin1": "Eastern Cape",
+      "timezone": "Africa/Johannesburg"
+    },
+    {
+      "id": 3379846,
+      "name": "Amsterdam",
+      "latitude": 6.92315,
+      "longitude": -58.38091,
+      "country": "Guyana",
+      "country_code": "GY",
+      "admin1": "Essequibo Islands-West Demerara",
+      "timezone": "America/Guyana"
+    }
+  ]
+}

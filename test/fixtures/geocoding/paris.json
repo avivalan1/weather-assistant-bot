@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "id": 2988507,
+      "name": "Paris",
+      "latitude": 48.85341,
+      "longitude": 2.3488,
+      "country": "France",
+      "country_code": "FR",
+      "admin1": "Île-de-France Region",
+      "timezone": "Europe/Paris",
+      "population": 2138551
+    },
+    {
+      "id": 4717560,
+      "name": "Paris",
+      "latitude": 33.66094,
+      "longitude": -95.55551,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Texas",
+      "timezone": "America/Chicago",
+      "population": 24782
+    },
+    {
+      "id": 4647963,
+      "name": "Paris",
+      "latitude": 36.302,
+      "longitude": -88.32671,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Tennessee",
+      "timezone": "America/Chicago",
+      "population": 10150
+    },
+    {
+      "id": 4303602,
+      "name": "Paris",
+      "latitude": 38.2098,
+      "longitude": -84.25299,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Kentucky",
+      "timezone": "America/New_York",
+      "population": 9870
+    },
+    {
+      "id": 4246659,
+      "name": "Paris",
+      "latitude": 39.61115,
+      "longitude": -87.69614,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Illinois",
+      "timezone": "America/Chicago",
+      "population": 8432
+    },
+    {
+      "id": 4974617,
+      "name": "Paris",
+      "latitude": 44.25979,
+      "longitude": -70.50062,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Maine",
+      "timezone": "America/New_York",
+      "population": 5073
+    },
+    {
+      "id": 4402452,
+      "name": "Paris",
+      "latitude": 39.48087,
+      "longitude": -92.00128,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Missouri",
+      "timezone": "America/Chicago",
+      "population": 1176
+    },
+    {
+      "id": 5603240,
+      "name": "Paris",
+      "latitude": 42.22715,
+      "longitude": -111.40104,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Idaho",
+      "timezone": "America/Boise",
+      "population": 506
+    },
+    {
+      "id": 4125402,
+      "name": "Paris",
+      "latitude": 35.29203,
+      "longitude": -93.72992,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Arkansas",
+      "timezone": "America/Chicago",
+      "population": 3443
+    },
+    {
+      "id": 5170013,
+      "name": "Saint Paris",
+      "latitude": 40.12839,
+      "longitude": -83.95966,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Ohio",
+      "timezone": "America/New_York",
+      "population": 2089
+    }
+  ]
+}

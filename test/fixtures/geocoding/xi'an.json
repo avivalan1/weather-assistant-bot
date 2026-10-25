@@ -1,0 +1,105 @@
+{
+  "results": [
+    {
+      "id": 1790630,
+      "name": "Xi'an",
+      "latitude": 34.25833,
+      "longitude": 108.92861,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Shaanxi",
+      "timezone": "Asia/Shanghai",
+      "population": 12952907
+    },
+    {
+      "id": 8527333,
+      "name": "Xi’an",
+      "latitude": 44.57568,
+      "longitude": 129.60863,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Heilongjiang",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": 1790631,
+      "name": "Xi’an",
+      "latitude": 28.46667,
+      "longitude": 111.05,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Hunan",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": 1790633,
+      "name": "Xi’an",
+      "latitude": 24.92056,
+      "longitude": 112.28844,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Guangdong",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": 2053185,
+      "name": "Xi’an",
+      "latitude": 40.92265,
+      "longitude": 122.23481,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Liaoning",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": 1551730,
+      "name": "Xi’an",
+      "latitude": 27.5351,
+      "longitude": 106.422,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Guizhou",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": 1790632,
+      "name": "Xi’an",
+      "latitude": 27.98333,
+      "longitude": 120.4,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Zhejiang",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": 1896236,
+      "name": "Xi’ancun",
+      "latitude": 28.73597,
+      "longitude": 121.5218,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Zhejiang",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": 1913119,
+      "name": "Xi’an",
+      "latitude": 22.38139,
+      "longitude": 113.22444,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Guangdong",
+      "timezone": "Asia/Shanghai"
+    },
+    {
+      "id": 1913787,
+      "name": "Xi’an",
+      "latitude": 22.93439,
+      "longitude": 112.79641,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Guangdong",
+      "timezone": "Asia/Shanghai"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "results": [
+    {
+      "id": 3121429,
+      "name": "Xián",
+      "latitude": 42.74443,
+      "longitude": -7.69034,
+      "country": "Spain",
+      "country_code": "ES",
+      "admin1": "Galicia",
+      "timezone": "Europe/Madrid"
+    },
+    {
+      "id": 1790492,
+      "name": "Xiangtan",
+      "latitude": 27.85,
+      "longitude": 112.9,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Hunan",
+      "timezone": "Asia/Shanghai",
+      "population": 959303
+    },
+    {
+      "id": 1790396,
+      "name": "Xianning",
+      "latitude": 29.84347,
+      "longitude": 114.32201,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Hubei",
+      "timezone": "Asia/Shanghai",
+      "population": 512517
+    },
+    {
+      "id": 1790353,
+      "name": "Xianyang",
+      "latitude": 34.33778,
+      "longitude": 108.70261,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Shaanxi",
+      "timezone": "Asia/Shanghai",
+      "population": 1034081
+    },
+    {
+      "id": 1790437,
+      "name": "Zhuhai",
+      "latitude": 22.27694,
+      "longitude": 113.56778,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Guangdong",
+      "timezone": "Asia/Shanghai",
+      "population": 2207090
+    },
+    {
+      "id": 1790587,
+      "name": "Xiangyang",
+      "latitude": 32.0422,
+      "longitude": 112.14479,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Hubei",
+      "timezone": "Asia/Shanghai",
+      "population": 1294733
+    },
+    {
+      "id": 1790371,
+      "name": "Xiantao",
+      "latitude": 30.3708,
+      "longitude": 113.44294,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Hubei",
+      "timezone": "Asia/Shanghai",
+      "population": 239406
+    },
+    {
+      "id": 1790471,
+      "name": "Xiangxiang",
+      "latitude": 27.73333,
+      "longitude": 112.53333,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Hunan",
+      "timezone": "Asia/Shanghai",
+      "population": 235000
+    },
+    {
+      "id": 1790392,
+      "name": "Xiannü",
+      "latitude": 32.42806,
+      "longitude": 119.56048,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Jiangsu",
+      "timezone": "Asia/Shanghai",
+      "population": 83936
+    },
+    {
+      "id": 7001676,
+      "name": "Xiani",
+      "latitude": 22.81888,
+      "longitude": 114.14886,
+      "country": "China",
+      "country_code": "CN",
+      "admin1": "Guangdong",
+      "timezone": "Asia/Shanghai"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "id": 5746545,
+      "name": "Portland",
+      "latitude": 45.52345,
+      "longitude": -122.67621,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Oregon",
+      "timezone": "America/Los_Angeles",
+      "population": 652503
+    },
+    {
+      "id": 4975802,
+      "name": "Portland",
+      "latitude": 43.65737,
+      "longitude": -70.2589,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Maine",
+      "timezone": "America/New_York",
+      "population": 66881
+    },
+    {
+      "id": 4925037,
+      "name": "Portland",
+      "latitude": 40.43449,
+      "longitude": -84.97775,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Indiana",
+      "timezone": "America/Indiana/Indianapolis",
+      "population": 6186
+    },
+    {
+      "id": 4885186,
+      "name": "Blue Island",
+      "latitude": 41.65726,
+      "longitude": -87.68005,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Illinois",
+      "timezone": "America/Chicago",
+      "population": 23652
+    },
+    {
+      "id": 4720131,
+      "name": "Portland",
+      "latitude": 27.87725,
+      "longitude": -97.32388,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Texas",
+      "timezone": "America/Chicago",
+      "population": 16116
+    },
+    {
+      "id": 6692041,
+      "name": "Portland",
+      "latitude": 50.56748,
+      "longitude": -2.44472,
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "admin1": "England",
+      "timezone": "Europe/London",
+      "population": 12710
+    },
+    {
+      "id": 4650946,
+      "name": "Portland",
+      "latitude": 36.58171,
+      "longitude": -86.51638,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Tennessee",
+      "timezone": "America/Chicago",
+      "population": 12323
+    },
+    {
+      "id": 4841001,
+      "name": "Portland",
+      "latitude": 41.57288,
+      "longitude": -72.64065,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Connecticut",
+      "timezone": "America/New_York",
+      "population": 5862
+    },
+    {
+      "id": 5132058,
+      "name": "Portland",
+      "latitude": 42.37978,
+      "longitude": -79.46755,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "New York",
+      "timezone": "America/New_York",
+      "population": 4694
+    },
+    {
+      "id": 5006314,
+      "name": "Portland",
+      "latitude": 42.8692,
+      "longitude": -84.90305,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Michigan",
+      "timezone": "America/Detroit",
+      "population": 3923
+    }
+  ]
+}

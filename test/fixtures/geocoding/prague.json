@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "id": 3067696,
+      "name": "Prague",
+      "latitude": 50.08804,
+      "longitude": 14.42076,
+      "country": "Czechia",
+      "country_code": "CZ",
+      "admin1": "Prague",
+      "timezone": "Europe/Prague",
+      "population": 1165581
+    },
+    {
+      "id": 4548393,
+      "name": "Prague",
+      "latitude": 35.48674,
+      "longitude": -96.68502,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Oklahoma",
+      "timezone": "America/Chicago",
+      "population": 2453
+    },
+    {
+      "id": 5075696,
+      "name": "Prague",
+      "latitude": 41.31028,
+      "longitude": -96.80836,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Nebraska",
+      "timezone": "America/Chicago",
+      "population": 299
+    },
+    {
+      "id": 4127315,
+      "name": "Prague",
+      "latitude": 34.28676,
+      "longitude": -92.28071,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Arkansas",
+      "timezone": "America/Chicago"
+    },
+    {
+      "id": 3072931,
+      "name": "Královské Vinohrady",
+      "latitude": 50.07438,
+      "longitude": 14.44367,
+      "country": "Czechia",
+      "country_code": "CZ",
+      "admin1": "Prague",
+      "timezone": "Europe/Prague",
+      "population": 48805
+    },
+    {
+      "id": 11669121,
+      "name": "Prague-Kbely Airport",
+      "latitude": 50.12261,
+      "longitude": 14.5426,
+      "country": "Czechia",
+      "country_code": "CZ",
+      "admin1": "Prague",
+      "timezone": "Europe/Prague"
+    },
+    {
+      "id": 4548396,
+      "name": "Prague Municipal Airport",
+      "latitude": 35.48226,
+      "longitude": -96.71982,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Oklahoma",
+      "timezone": "America/Chicago"
+    },
+    {
+      "id": 6299654,
+      "name": "Václav Havel Airport Prague",
+      "latitude": 50.10083,
+      "longitude": 14.26,
+      "country": "Czechia",
+      "country_code": "CZ",
+      "admin1": "Prague",
+      "timezone": "Europe/Prague"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "id": 4140963,
+      "name": "Washington D.C.",
+      "latitude": 38.89511,
+      "longitude": -77.03637,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "District of Columbia",
+      "timezone": "America/New_York",
+      "population": 689545
+    },
+    {
+      "id": 4900817,
+      "name": "Macomb",
+      "latitude": 40.45921,
+      "longitude": -90.6718,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Illinois",
+      "timezone": "America/Chicago",
+      "population": 18547
+    },
+    {
+      "id": 5218069,
+      "name": "Washington",
+      "latitude": 40.17396,
+      "longitude": -80.24617,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Pennsylvania",
+      "timezone": "America/New_York",
+      "population": 13497
+    },
+    {
+      "id": 4266586,
+      "name": "Washington",
+      "latitude": 38.65922,
+      "longitude": -87.17279,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Indiana",
+      "timezone": "America/Indiana/Vincennes",
+      "population": 12078
+    },
+    {
+      "id": 5267776,
+      "name": "Port Washington",
+      "latitude": 43.38722,
+      "longitude": -87.87564,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Wisconsin",
+      "timezone": "America/Chicago",
+      "population": 11576
+    },
+    {
+      "id": 4497666,
+      "name": "Washington",
+      "latitude": 35.54655,
+      "longitude": -77.05217,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "North Carolina",
+      "timezone": "America/New_York",
+      "population": 9788
+    },
+    {
+      "id": 4880731,
+      "name": "Washington",
+      "latitude": 41.29918,
+      "longitude": -91.69294,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Iowa",
+      "timezone": "America/Chicago",
+      "population": 7408
+    },
+    {
+      "id": 4229546,
+      "name": "Washington",
+      "latitude": 33.73679,
+      "longitude": -82.73931,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Georgia",
+      "timezone": "America/New_York",
+      "population": 3981
+    },
+    {
+      "id": 4281253,
+      "name": "Washington",
+      "latitude": 39.81806,
+      "longitude": -97.05086,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Kansas",
+      "timezone": "America/Chicago",
+      "population": 1085
+    },
+    {
+      "id": 4792307,
+      "name": "Washington",
+      "latitude": 38.71345,
+      "longitude": -78.15944,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Virginia",
+      "timezone": "America/New_York",
+      "population": 128
+    }
+  ]
+}

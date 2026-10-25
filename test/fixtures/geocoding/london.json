@@ -1,0 +1,112 @@
+{
+  "results": [
+    {
+      "id": 2643743,
+      "name": "London",
+      "latitude": 51.50853,
+      "longitude": -0.12574,
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "admin1": "England",
+      "timezone": "Europe/London",
+      "population": 8961989
+    },
+    {
+      "id": 6058560,
+      "name": "London",
+      "latitude": 42.98339,
+      "longitude": -81.23304,
+      "country": "Canada",
+      "country_code": "CA",
+      "admin1": "Ontario",
+      "timezone": "America/Toronto",
+      "population": 422324
+    },
+    {
+      "id": 4517009,
+      "name": "London",
+      "latitude": 39.88645,
+      "longitude": -83.44825,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Ohio",
+      "timezone": "America/New_York",
+      "population": 10060
+    },
+    {
+      "id": 4298960,
+      "name": "London",
+      "latitude": 37.12898,
+      "longitude": -84.08326,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Kentucky",
+      "timezone": "America/New_York",
+      "population": 8126
+    },
+    {
+      "id": 4119617,
+      "name": "London",
+      "latitude": 35.32897,
+      "longitude": -93.25296,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Arkansas",
+      "timezone": "America/Chicago",
+      "population": 1046
+    },
+    {
+      "id": 4707414,
+      "name": "London",
+      "latitude": 30.67685,
+      "longitude": -99.57645,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Texas",
+      "timezone": "America/Chicago",
+      "population": 180
+    },
+    {
+      "id": 4812926,
+      "name": "London",
+      "latitude": 38.19455,
+      "longitude": -81.36872,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "West Virginia",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": 5367815,
+      "name": "London",
+      "latitude": 36.47606,
+      "longitude": -119.44318,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "California",
+      "timezone": "America/Los_Angeles",
+      "population": 1869
+    },
+    {
+      "id": 4030939,
+      "name": "London",
+      "latitude": 1.98487,
+      "longitude": -157.47502,
+      "country": "Kiribati",
+      "country_code": "KI",
+      "admin1": "Line Islands",
+      "timezone": "Pacific/Kiritimati",
+      "population": 1829
+    },
+    {
+      "id": 982299,
+      "name": "London",
+      "latitude": -24.76667,
+      "longitude": 30.86667,
+      "country": "South Africa",
+      "country_code": "ZA",
+      "admin1": "Mpumalanga",
+      "timezone": "Africa/Johannesburg"
+    }
+  ]
+}

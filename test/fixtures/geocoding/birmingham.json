@@ -1,0 +1,111 @@
+{
+  "results": [
+    {
+      "id": 2655603,
+      "name": "Birmingham",
+      "latitude": 52.48142,
+      "longitude": -1.89983,
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "admin1": "England",
+      "timezone": "Europe/London",
+      "population": 1157603
+    },
+    {
+      "id": 4049979,
+      "name": "Birmingham",
+      "latitude": 33.52066,
+      "longitude": -86.80249,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Alabama",
+      "timezone": "America/Chicago",
+      "population": 196357
+    },
+    {
+      "id": 4186531,
+      "name": "Cartersville",
+      "latitude": 34.16533,
+      "longitude": -84.80231,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Georgia",
+      "timezone": "America/New_York",
+      "population": 20319
+    },
+    {
+      "id": 4986172,
+      "name": "Birmingham",
+      "latitude": 42.5467,
+      "longitude": -83.21132,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Michigan",
+      "timezone": "America/Detroit",
+      "population": 20857
+    },
+    {
+      "id": 4848666,
+      "name": "Birmingham",
+      "latitude": 40.87891,
+      "longitude": -91.94712,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Iowa",
+      "timezone": "America/Chicago",
+      "population": 433
+    },
+    {
+      "id": 4084925,
+      "name": "Princeton",
+      "latitude": 34.84342,
+      "longitude": -86.24304,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Alabama",
+      "timezone": "America/Chicago"
+    },
+    {
+      "id": 4500830,
+      "name": "Birmingham",
+      "latitude": 39.97595,
+      "longitude": -74.71016,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "New Jersey",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": 5147523,
+      "name": "Birmingham",
+      "latitude": 41.33005,
+      "longitude": -82.36072,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Ohio",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": 5815033,
+      "name": "Warm Beach",
+      "latitude": 48.17065,
+      "longitude": -122.3646,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Washington",
+      "timezone": "America/Los_Angeles",
+      "population": 2437
+    },
+    {
+      "id": 4377224,
+      "name": "Birmingham",
+      "latitude": 39.16584,
+      "longitude": -94.45134,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Missouri",
+      "timezone": "America/Chicago",
+      "population": 193
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "id": 4180439,
+      "name": "Atlanta",
+      "latitude": 33.749,
+      "longitude": -84.38798,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Georgia",
+      "timezone": "America/New_York",
+      "population": 510823
+    },
+    {
+      "id": 4274927,
+      "name": "Lyons",
+      "latitude": 38.34501,
+      "longitude": -98.20173,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Kansas",
+      "timezone": "America/Chicago",
+      "population": 3725
+    },
+    {
+      "id": 4984500,
+      "name": "Atlanta",
+      "latitude": 45.00473,
+      "longitude": -84.14389,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Michigan",
+      "timezone": "America/Detroit",
+      "population": 827
+    },
+    {
+      "id": 4671576,
+      "name": "Atlanta",
+      "latitude": 33.11374,
+      "longitude": -94.16435,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Texas",
+      "timezone": "America/Chicago",
+      "population": 5605
+    },
+    {
+      "id": 4883772,
+      "name": "Atlanta",
+      "latitude": 40.25948,
+      "longitude": -89.23342,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Illinois",
+      "timezone": "America/Chicago",
+      "population": 1648
+    },
+    {
+      "id": 4917706,
+      "name": "Atlanta",
+      "latitude": 40.21532,
+      "longitude": -86.02637,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Indiana",
+      "timezone": "America/Indiana/Indianapolis",
+      "population": 735
+    },
+    {
+      "id": 4375288,
+      "name": "Atlanta",
+      "latitude": 39.89865,
+      "longitude": -92.48102,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Missouri",
+      "timezone": "America/Chicago",
+      "population": 374
+    },
+    {
+      "id": 4267754,
+      "name": "Atlanta",
+      "latitude": 37.43641,
+      "longitude": -96.76475,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Kansas",
+      "timezone": "America/Chicago",
+      "population": 193
+    },
+    {
+      "id": 4315153,
+      "name": "Atlanta",
+      "latitude": 31.80517,
+      "longitude": -92.73821,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Louisiana",
+      "timezone": "America/Chicago",
+      "population": 154
+    },
+    {
+      "id": 5063304,
+      "name": "Atlanta",
+      "latitude": 40.36668,
+      "longitude": -99.47316,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Nebraska",
+      "timezone": "America/Chicago",
+      "population": 131
+    }
+  ]
+}

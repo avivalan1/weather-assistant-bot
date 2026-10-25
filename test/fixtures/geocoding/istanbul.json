@@ -1,0 +1,55 @@
+{
+  "results": [
+    {
+      "id": 745044,
+      "name": "Istanbul",
+      "latitude": 41.01384,
+      "longitude": 28.94966,
+      "country": "Republic of Türkiye",
+      "country_code": "TR",
+      "admin1": "Istanbul",
+      "timezone": "Europe/Istanbul",
+      "population": 15701602
+    },
+    {
+      "id": 10953465,
+      "name": "İstanbulboğazı",
+      "latitude": 41.0641,
+      "longitude": 37.71004,
+      "country": "Republic of Türkiye",
+      "country_code": "TR",
+      "admin1": "Ordu",
+      "timezone": "Europe/Istanbul"
+    },
+    {
+      "id": 11838481,
+      "name": "Istanbul Airport",
+      "latitude": 41.2629,
+      "longitude": 28.74242,
+      "country": "Republic of Türkiye",
+      "country_code": "TR",
+      "admin1": "Istanbul",
+      "timezone": "Europe/Istanbul"
+    },
+    {
+      "id": 12908718,
+      "name": "Istanbul Old Town",
+      "latitude": 41.00783,
+      "longitude": 28.97838,
+      "country": "Republic of Türkiye",
+      "country_code": "TR",
+      "admin1": "Istanbul",
+      "timezone": "Europe/Istanbul"
+    },
+    {
+      "id": 6299743,
+      "name": "Istanbul Atatürk Airport",
+      "latitude": 40.97692,
+      "longitude": 28.81461,
+      "country": "Republic of Türkiye",
+      "country_code": "TR",
+      "admin1": "Istanbul",
+      "timezone": "Europe/Istanbul"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "results": [
+    {
+      "id": 2747373,
+      "name": "The Hague",
+      "latitude": 52.07667,
+      "longitude": 4.29861,
+      "country": "The Netherlands",
+      "country_code": "NL",
+      "admin1": "South Holland",
+      "timezone": "Europe/Amsterdam",
+      "population": 474292
+    },
+    {
+      "id": 4762699,
+      "name": "Hague",
+      "latitude": 38.07235,
+      "longitude": -76.65107,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Virginia",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": 13273571,
+      "name": "The Hague",
+      "latitude": 53.4486,
+      "longitude": -2.0024,
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "admin1": "England",
+      "timezone": "Europe/London"
+    }
+  ]
+}

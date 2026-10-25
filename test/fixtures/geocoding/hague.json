@@ -1,0 +1,106 @@
+{
+  "results": [
+    {
+      "id": 5059514,
+      "name": "Hague",
+      "latitude": 46.0286,
+      "longitude": -99.99567,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "North Dakota",
+      "timezone": "America/Chicago",
+      "population": 67
+    },
+    {
+      "id": 4762699,
+      "name": "Hague",
+      "latitude": 38.07235,
+      "longitude": -76.65107,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Virginia",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": 5119707,
+      "name": "Hague",
+      "latitude": 43.74534,
+      "longitude": -73.49845,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "New York",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": 3378530,
+      "name": "Hague",
+      "latitude": 6.85041,
+      "longitude": -58.26249,
+      "country": "Guyana",
+      "country_code": "GY",
+      "admin1": "Essequibo Islands-West Demerara",
+      "timezone": "America/Guyana"
+    },
+    {
+      "id": 4157822,
+      "name": "Hague",
+      "latitude": 29.77052,
+      "longitude": -82.42122,
+      "country": "United States",
+      "country_code": "US",
+      "admin1": "Florida",
+      "timezone": "America/New_York"
+    },
+    {
+      "id": 5968919,
+      "name": "Hague",
+      "latitude": 52.51118,
+      "longitude": -106.41787,
+      "country": "Canada",
+      "country_code": "CA",
+      "admin1": "Saskatchewan",
+      "timezone": "America/Regina"
+    },
+    {
+      "id": 3014078,
+      "name": "Haguenau",
+      "latitude": 48.81557,
+      "longitude": 7.79051,
+      "country": "France",
+      "country_code": "FR",
+      "admin1": "Grand Est",
+      "timezone": "Europe/Paris",
+      "population": 38721
+    },
+    {
+      "id": 12262322,
+      "name": "Hague Bar",
+      "latitude": 53.36834,
+      "longitude": -2.02258,
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "admin1": "England",
+      "timezone": "Europe/London"
+    },
+    {
+      "id": 6694520,
+      "name": "Haguenau",
+      "latitude": 48.798,
+      "longitude": 7.82,
+      "country": "France",
+      "country_code": "FR",
+      "admin1": "Grand Est",
+      "timezone": "Europe/Paris"
+    },
+    {
+      "id": 12539873,
+      "name": "Hague Backdam",
+      "latitude": 6.82166,
+      "longitude": -58.26539,
+      "country": "Guyana",
+      "country_code": "GY",
+      "admin1": "Essequibo Islands-West Demerara",
+      "timezone": "America/Guyana"
+    }
+  ]
+}
